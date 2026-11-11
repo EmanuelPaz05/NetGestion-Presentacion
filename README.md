@@ -17,17 +17,18 @@
 
 ## Segundo entregable del coloquio: automatización de reportes
 
-**[Abrir automatización ejecutable de reportes por correo](./automatizacion-reportes/README.md)**
+**[Abrir repositorio independiente de automatización de reportes por correo](https://github.com/EmanuelPaz05/NetGestion-Automatizacion-Reportes)**
 
-Es una aplicación independiente en `automatizacion-reportes/`, con código Node.js, datos de ventas ficticias, generación automática de reportes JSON/HTML, pruebas y envío opcional por Resend. No es el código real de Net-Gestión.
+Es una aplicación independiente publicada en otro repositorio, con código Node.js, datos de ventas ficticias, generación automática de reportes JSON/HTML, pruebas y envío opcional por Resend. No es el código real de Net-Gestión.
 
 ```bash
-cd automatizacion-reportes
+git clone https://github.com/EmanuelPaz05/NetGestion-Automatizacion-Reportes.git
+cd NetGestion-Automatizacion-Reportes
 npm start -- --date=2026-11-11
 npm test
 ```
 
-> Para cumplir literalmente la consigna de **dos repositorios fijados**, esta carpeta todavía debe publicarse como repositorio GitHub separado. Aquí ya está lista y publicada como módulo ejecutable.
+> La automatización ya está en su propio repositorio público. Para completar la consigna, fijá ambos repositorios en tu perfil de GitHub.
 
 ## Problema y solución
 
