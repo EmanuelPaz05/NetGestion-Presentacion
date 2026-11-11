@@ -50,8 +50,8 @@ Los comercios necesitan registrar movimientos y conocer su stock para evitar err
 **Requisito:** Node.js 18 o superior. No hay servicios externos, claves de API ni dependencias npm que instalar.
 
 ```bash
-git clone https://github.com/EmanuelPaz05/Sistema-de-Gestion-de-Stock-para-Negocios.git
-cd Sistema-de-Gestion-de-Stock-para-Negocios
+git clone https://github.com/EmanuelPaz05/NetGestion-Presentacion.git
+cd NetGestion-Presentacion
 npm start
 ```
 
