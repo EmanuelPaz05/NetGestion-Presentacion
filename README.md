@@ -15,6 +15,20 @@
 
 > **Importante:** este es un **prototipo didáctico nuevo e independiente**, inspirado en los procesos de gestión de un comercio. No es el código del producto comercial Net-Gestión, no usa datos de clientes, no se conecta a las bases de datos de producción y no pretende incluir todas las funcionalidades del producto real.
 
+## Segundo entregable del coloquio: automatización de reportes
+
+**[Abrir automatización ejecutable de reportes por correo](./automatizacion-reportes/README.md)**
+
+Es una aplicación independiente en `automatizacion-reportes/`, con código Node.js, datos de ventas ficticias, generación automática de reportes JSON/HTML, pruebas y envío opcional por Resend. No es el código real de Net-Gestión.
+
+```bash
+cd automatizacion-reportes
+npm start -- --date=2026-11-11
+npm test
+```
+
+> Para cumplir literalmente la consigna de **dos repositorios fijados**, esta carpeta todavía debe publicarse como repositorio GitHub separado. Aquí ya está lista y publicada como módulo ejecutable.
+
 ## Problema y solución
 
 Los comercios necesitan registrar movimientos y conocer su stock para evitar errores operativos. Esta aplicación muestra un flujo completo y reproducible: crear productos, registrar ventas, descontar existencias, ingresar mercadería y visualizar indicadores.
