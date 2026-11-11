@@ -1,0 +1,12 @@
+{
+  "name": "netgestion-automatizacion-reportes-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Automatización didáctica de reportes comerciales: datos ficticios, generación de resumen y correo",
+  "scripts": {
+    "start": "node src/cli.js",
+    "watch": "node src/cli.js --watch",
+    "test": "node --test tests/*.test.js"
+  },
+  "engines": { "node": ">=18" }
+}
