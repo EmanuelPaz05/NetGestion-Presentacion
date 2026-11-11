@@ -1,0 +1,7 @@
+[
+  {"id":1,"fecha":"2026-11-09","producto":"Yerba mate 1kg","cantidad":2,"precioUnitario":6500},
+  {"id":2,"fecha":"2026-11-09","producto":"Gaseosa 2.25L","cantidad":3,"precioUnitario":3200},
+  {"id":3,"fecha":"2026-11-10","producto":"Galletitas surtidas","cantidad":4,"precioUnitario":1800},
+  {"id":4,"fecha":"2026-11-10","producto":"Yerba mate 1kg","cantidad":1,"precioUnitario":6500},
+  {"id":5,"fecha":"2026-11-11","producto":"Agua mineral 1.5L","cantidad":5,"precioUnitario":1600}
+]
